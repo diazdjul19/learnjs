@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Falsy dan Truthy</title>
+</head>
+<body>
+
+    <!-- Aturan Data Falsy -->
+    <!-- (false) => Ket Boolean false -->
+    <!-- (0, -0) => Ket Number 0 dan -0 di anggap false -->
+    <!-- ("", '', ``) => Ket Semua string kosong di anggap false-->
+    <!-- (null) => Ket null di angap false -->
+    <!-- (undefined) => Ket undefinet fi anggap false -->
+    <!-- (NaN) => Ket, Not a Number di anggap false -->
+
+    <!-- Aturan Truthy -->
+    <!-- 
+        Truthy adalah kebalikan dari falsy, dimana data nya dianggap bernilai true
+        Sederhana sekali sebenarnya untuk mengetahui sebuah data itu adalah truthy, yaitu data yang bukan bernilai falsy 
+
+     -->
+
+<script>
+
+    let data;
+
+    if(data){
+        document.writeln("TRUE");
+    }else{
+        document.writeln("FALSE");
+    }
+
+</script>
+</body>
+</html>
