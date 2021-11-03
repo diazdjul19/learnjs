@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Default Parameneter</title>
+</head>
+<body>
+    <script>
+        function register(nameUser, noTelp = "No Telp : TIDAK DI SET") {
+            console.info(nameUser);
+            console.info(noTelp);
+        }
+
+        register("DiazDjuliansyah", "089653652668");
+        register("DiazDjuliansyah");
+        register("DiazDjuliansyah", undefined);
+        register("DiazDjuliansyah", null);
+
+
+    </script>
+</body>
+</html>
